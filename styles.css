@@ -1,0 +1,51 @@
+body{
+    background-color: azure;
+}
+#exe{
+    margin-left: 10px;
+    margin-bottom: 1px;
+    float: right;
+    text-align: center;
+    color: rgba(21, 131, 122, 0.74);
+    border-style: dotted;
+    border-color: rgb(39, 136, 136);
+    font-style: italic;
+}
+.lorem{
+    text-align: justify;
+    color:rgb(75, 74, 74);
+    margin-left: 0.25cm;
+}
+#rel{
+    position: relative; 
+    left: 35%;
+    top: 0%;
+}
+#abs{
+    position: absolute;
+    right: auto;
+    bottom: auto;
+}
+.flex{
+    display:flex;
+    background-color: rgb(63, 106, 107);
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 200px;
+    padding: 5px;  
+}
+.item{
+    background-color: rgb(80, 235, 255);
+    font-size:2.5rem;
+    margin: 10px;
+    padding: 20px;
+}
+.bigitem{
+    background-color: rgb(80, 235, 255);
+    font-size:2.5rem;
+    margin: 10px;
+    padding: 50px 20px;
+}
+
